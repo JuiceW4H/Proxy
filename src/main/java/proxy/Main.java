@@ -6,13 +6,13 @@ class Main
 	{	
         try
         {
-            Driver d = new Driver(26, "shubham", true);
+            Driver d = new Driver(26, "JC Diamante", true);
             CarProxy c = new CarProxy();
             c.setDriver(d);
             c.driveCar();
         }
         catch(Exception e){
-            System.out.println("whatsup");
+            System.out.println("yo");
         }
 	}
 }
